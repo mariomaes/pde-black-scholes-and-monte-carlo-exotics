@@ -4,7 +4,7 @@ Implementación desde cero en Python (`NumPy`, `SciPy`) de métodos numéricos a
 
 ## 1. Resolución de la EDP de Black-Scholes por Diferencias Finitas
 Discretización espacio-temporal de la Ecuación en Derivadas Parciales de Black-Scholes mediante la resolución iterativa de sistemas matriciales tridiagonales:
-* **Esquema de Crank-Nicholson:** Formulación matricial ($A\vec{V}_{n+1} = B\vec{V}_n + \Gamma_n + \Lambda_{n+1}$) e imposición de condiciones iniciales (*payoff*) y de contorno específicas para valorar:
+* **Esquema de Crank-Nicholson:** Formulación matricial e imposición de condiciones iniciales (*payoff*) y de contorno específicas para valorar:
   * **Opciones Europeas (Call y Put).**
   * **Opciones Binarias / Digitales** (modeladas mediante la función escalón de Heaviside).
   * **Estrategias Estructuradas:** *Bull Spread* y *Straddle*.
